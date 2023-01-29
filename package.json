@@ -6,10 +6,15 @@
     "url": "https://github.com/MosCD3/oca-resolve.git"
   },
   "description": "Parse OCA bundle and resolve layers for specific credential",
-  "main": "index.js",
+  "main": "oca.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mostafa Gamal",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@aries-framework/core": "^0.3.3",
+    "@aries-framework/react-hooks": "^0.4.1",
+    "@aries-framework/react-native": "^0.3.3"
+  }
 }
