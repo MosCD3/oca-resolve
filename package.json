@@ -1,6 +1,10 @@
 {
   "name": "@moscd3/oca-resolve",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MosCD3/oca-resolve.git"
+  },
   "description": "Parse OCA bundle and resolve layers for specific credential",
   "main": "index.js",
   "scripts": {
